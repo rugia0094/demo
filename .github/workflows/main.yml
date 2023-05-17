@@ -1,10 +1,10 @@
 name: CI_Actions
- 
+
 on:
   push:
-    branches: 
-      - main
-      
+    branches:
+      - master
+
 jobs:
   testing:
     runs-on: ubuntu-latest
